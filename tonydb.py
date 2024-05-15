@@ -240,9 +240,20 @@ async def add_columns(table_name: str, schema: AddColumnsSchema):
 {
     "columns": {
         "id": "INTEGER",
-        "name": "VARCHAR(50)"
+        "name": "VARCHAR(50)",
+        "email": "VARCHAR(100)",
+        "age": "SMALLINT",
+        "birth_date": "DATE",
+        "is_active": "BOOLEAN",
+        "created_at": "TIMESTAMP",
+        "updated_at": "TIMESTAMP",
+        "salary": "DECIMAL(10, 2)",
+        "profile": "TEXT",
+        "rating": "FLOAT",
+        "image": "BYTEA"
     }
 }
+
 
 
 """
