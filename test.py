@@ -1,3 +1,7 @@
+# python -m uvicorn test:app --reload
+# http://localhost:8000/
+
+
 # Import Dependencies
 
 from fastapi import FastAPI, HTTPException
@@ -116,10 +120,3 @@ async def get_table_data(table_name: str):
     except Exception as e:
         # If an error occurs, raise an HTTPException with a 500 status code
         raise HTTPException(status_code=500, detail=str(e))
-
-
-
-
-
-
-# python -m uvicorn main:app --reload
