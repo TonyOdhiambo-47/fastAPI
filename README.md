@@ -13,5 +13,5 @@ This is the twitter scraper that is used to access twitter.com, access the profi
 Work in progress. Currently debugging since I am facing some issues.
 
 # dvdrental.zip and dvdrental.tar
-This is the relational database that I was testing. It has 16 tables, namely: "actor", "store", "address", "category", "city", "country", "customer", "film_actor", "film_category", "inventory", "language", "rental", "staff", "payment", "film"
+This is the relational database that I was testing. It has 15 tables, namely: "actor", "store", "address", "category", "city", "country", "customer", "film_actor", "film_category", "inventory", "language", "rental", "staff", "payment", "film"
 
