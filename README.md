@@ -15,5 +15,5 @@ This is the twitter scraper that is used to access twitter.com, access the profi
 # elon_tweets.json
 This is the json object that contains the scraped tweets
 
-# lastdbtest.py
+# save_tweets.py
 Work in progress. Currently debugging since I am facing some issues.
