@@ -12,7 +12,7 @@ I have used GET, POST, PUT, DELETE and PATCH methods.
 # scraper.py
 This is the twitter scraper that is used to access twitter.com, access the profile Elon Musk, scrape tweets and save to a json file.
 
-# elon_tweets.py
+# elon_tweets.json
 This is the json object that contains the scraped tweets
 
 # lastdbtest.py
